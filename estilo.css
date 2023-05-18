@@ -203,6 +203,11 @@ header nav ul li a:hover{
         
     }
     
+    #banner .conteudo h1:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
+    
     #banner .conteudo h2{
         position: absolute;
         width: 510px;
@@ -216,7 +221,11 @@ header nav ul li a:hover{
         line-height: 66px;
         letter-spacing: 0px;
     }
-    
+
+    #banner .conteudo h2:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
     #banner .conteudo p{
         position: absolute;
         width: 495px;
@@ -230,6 +239,11 @@ header nav ul li a:hover{
         line-height: 34px;
         letter-spacing: 0.75px;    
     
+    }
+
+    #banner .conteudo p:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     }
     
     #banner .conteudo button{
@@ -248,6 +262,11 @@ header nav ul li a:hover{
         cursor: pointer;
     
     }
+
+    #banner .conteudo button:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    }
     #banner .tenis{
         position: absolute;
         width: 733px;
@@ -257,6 +276,16 @@ header nav ul li a:hover{
         background: url(White-Sneakers-PNG-Clipart.png);
         filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
         transform: rotate(-2.90deg);
+        transition: all 0.5s;
+        cursor: pointer
+        
+    }
+
+    #banner .tenis:hover{
+    
+        -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+        
     }
 
     #banner .circulo{
@@ -265,8 +294,16 @@ header nav ul li a:hover{
     height: 140px;
     left: 1270px;
     top: 300px;
-    background: #f9f9f9;
+    background: #F5F5F5;
     opacity: 60%;
+    transition: all .5s;
+    border: 10px solid transparent;
+    
+    }
+    #banner .circulo:hover{
+    border: 10px solid #eeecec;
+    border-radius: 50%;
+    
     }
 
     #banner .bola{
@@ -279,6 +316,8 @@ header nav ul li a:hover{
            
 
     }
+
+    
 
     #banner .bola1{
     position: absolute;
